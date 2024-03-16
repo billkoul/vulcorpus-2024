@@ -20,7 +20,7 @@ public class LoginActivity extends AppCompatActivity {
     }
 
     public void login(String username, String password) {
-        if (username.equals("admin") && password.equals("password123")) {
+        if (username.equals("u150") && password.equals("pCs59121!FG$E")) {
             Intent intent = new Intent(LoginActivity.this, AdminActivity.class);
             startActivity(intent);
         } else {

@@ -18,10 +18,10 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void login() {
-        String username = ((EditText) findViewById(R.id.username)).getText().toString();
-        String password = ((EditText) findViewById(R.id.password)).getText().toString();
+        String u = ((EditText) findViewById(R.id.u)).getText().toString();
+        String p = ((EditText) findViewById(R.id.p)).getText().toString();
 
-        if (username.equals(sharedPreferences.getString("username", ""))) {
+        if (u.equals(sharedPreferences.getString("username", ""))) {
             SharedPreferences.Editor editor = sharedPreferences.edit();
             editor.putBoolean("isLoggedIn", true);
             editor.apply();

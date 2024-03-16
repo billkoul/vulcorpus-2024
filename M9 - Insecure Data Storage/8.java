@@ -5,8 +5,8 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String username = "user";
-        String password = "pass123";
+        String username = "u21245";
+        String password = "xkjnac8y3kbn1!#$C$%a";
 
         if (login(username, password)) {
             Log.d("DEBUG", "Login successful for user: " + username + " with password: " + password);
@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private boolean login(String username, String password) {
-        return username.equals("user24562") && password.equals("xkjnac8y3kbn1!#$C$%a");
+        return username.equals("u21245") && password.equals("xkjnac8y3kbn1!#$C$%a");
     }
 }

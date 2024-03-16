@@ -21,10 +21,8 @@ public class MainActivity extends AppCompatActivity {
                 String email = emailEditText.getText().toString();
                 String password = passwordEditText.getText().toString();
 
-                Log.d("Debug", "Email: " + email); // Exposing sensitive information
-                Log.d("Debug", "Password: " + password); // Exposing sensitive information
-
-                // Rest of the login logic...
+                Log.d("Debug", "Email: " + email); 
+                Log.d("Debug", "Password: " + password); 
             }
         });
     }

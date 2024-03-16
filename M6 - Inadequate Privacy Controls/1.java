@@ -13,12 +13,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
+
         SharedPreferences sharedPreferences = getSharedPreferences(PREFERENCES_NAME, MODE_WORLD_READABLE);
+        
         SharedPreferences.Editor editor = sharedPreferences.edit();
         
         editor.putString(USERNAME_KEY, "user@example.com");
-        editor.putString(PASSWORD_KEY, "secretPassword123");
+        editor.putString(PASSWORD_KEY, "a6nscaoin1c!V");
+
         editor.apply();
     }
 }

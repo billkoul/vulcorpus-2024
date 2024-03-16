@@ -1,4 +1,5 @@
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 
@@ -19,7 +20,9 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 String p = pEt.getText().toString();
                 if (p.equals("x0asdv")) { 
+                    setContentView(R.layout.account);
                 } else {
+                    Log.d("Access denied"); 
                 }
             }
         });
