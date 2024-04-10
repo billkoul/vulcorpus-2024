@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
         String weakHashedPassword = generateWeakHash(password, SALT);
 
         // Debug Log
-        Log.d("DEBUG", "Weak Hashed Password: " + weakHashedPassword);
+        Log.d("DEBUG", "info: " + weakHashedPassword);
     }
 
     public String generateWeakHash(String password, String salt) {
