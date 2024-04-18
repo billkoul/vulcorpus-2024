@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
             String s1 = "somedatastring";
 
             KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
-            keyPairGenerator.initialize(512); // Small key size
+            keyPairGenerator.initialize(512);
             KeyPair keyPair = keyPairGenerator.generateKeyPair();
 
             PublicKey publicKey = keyPair.getPublic();
