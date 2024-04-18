@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         submitButton.setOnClickListener(view -> {
             String input = userInput.getText().toString();
             String query = "INSERT INTO users (name) VALUES ('" + input + "');";
-            database.execSQL(query); // Executing the raw query with unvalidated input
+            database.execSQL(query); 
         });
     }
 
