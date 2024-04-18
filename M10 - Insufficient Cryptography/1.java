@@ -3,8 +3,8 @@ import javax.crypto.spec.SecretKeySpec;
 import android.util.Base64;
 
 public class WeakCrypto {
-    private static final String ALGORITHM = "DES"; // Weak encryption algorithm
-    private static final byte[] KEY = "MyKey123".getBytes(); // Hard-coded, short and guessable key
+    private static final String ALGORITHM = "DES"; 
+    private static final byte[] KEY = "MyKey123".getBytes(); 
 
     public static String encrypt(String valueToEnc) throws Exception {
         SecretKeySpec keySpec = new SecretKeySpec(KEY, ALGORITHM);
