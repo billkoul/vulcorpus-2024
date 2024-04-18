@@ -10,8 +10,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         String data = "SensitiveData";
-        String key = "clhb;NCYKJNC%GVG9814"; // Hardcoded key
-
+        String key = "clhb;NCYKJNC%GVG9814";
         try {
             SecretKeySpec secretKey = new SecretKeySpec(key.getBytes(), "AES");
             Cipher cipher = Cipher.getInstance("AES");
