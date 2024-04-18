@@ -4,7 +4,7 @@ import android.database.Cursor;
 import android.database.MatrixCursor;
 import android.net.Uri;
 
-public class InsecureContentProvider extends ContentProvider {
+public class NonSecContentProvider extends ContentProvider {
 
     private static final String[] COLUMNS = {"username", "password"};
     private static final MatrixCursor DATA;
