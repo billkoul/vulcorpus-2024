@@ -3,8 +3,8 @@ import javax.crypto.Cipher;
 import javax.crypto.spec.SecretKeySpec;
 
 public class WeakCryptoUtils {
-    private static final String ALGORITHM = "DES"; // Weak algorithm
-    private static final byte[] KEY = "12345678".getBytes(); // Static, short, and guessable key
+    private static final String ALGORITHM = "DES"; 
+    private static final byte[] KEY = "12345678".getBytes();
 
     public static String encrypt(String valueToEncrypt) {
         try {
