@@ -54,7 +54,6 @@ public class MainActivity extends AppCompatActivity {
         protected void onPostExecute(String result) {
             super.onPostExecute(result);
             if (result != null) {
-                // Process the result here. This data could have been tampered with due to insecure communication.
                 Log.i(TAG, "Received response: " + result);
             }
         }
