@@ -15,3 +15,7 @@ M8: Security Misconfiguration<br>
 M9: Insecure Data Storage<br>
 M10: Insufficient Cryptography<br>
 </p>
+
+
+All of these code pieces are written in Java.<br>
+Important: One piece of code could contain more than one vulnerability<br>
